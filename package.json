@@ -1,0 +1,33 @@
+{
+  "name": "aomori.github.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.8.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-newer": "^0.5.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-ruby-sass": "^1.2.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-stylus": "^2.0.5",
+    "imagemin": "^3.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "魔物と青森決戦の為のメモ",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/upupgirls/aomori.github.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/upupgirls/aomori.github.com/issues"
+  },
+  "homepage": "https://github.com/upupgirls/aomori.github.com"
+}
