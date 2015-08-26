@@ -13,7 +13,7 @@ var plumber = require('gulp-plumber');
 gulp.task('bs', function() {
   browserSync({
     server: {
-      baseDir: './bower.json'
+      baseDir: './'
     }
   });
 });
