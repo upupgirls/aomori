@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "homepage": "https://github.com/upupgirls/aomori.github.com",
   "authors": [
-    "Yuki Hoshi <hoshi_yuuki@5star.co.jp>"
+    ""
   ],
   "license": "MIT",
   "ignore": [
@@ -16,5 +16,9 @@
   "dependencies": {
     "jquery": "~2.1.4",
     "normalize-css": "~3.0.3"
+  },
+  "preen":{
+    "jqury":["dist/*.min.js"],
+    "normalize-css":["*.css"]
   }
 }

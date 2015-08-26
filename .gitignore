@@ -24,4 +24,5 @@ Thumbs.db
 node_modules
 components
 bower_components
+_bower
 logs
