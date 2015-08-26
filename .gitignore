@@ -23,5 +23,5 @@ Thumbs.db
 .vagrant
 node_modules
 components
-bower_component
+bower_components
 logs
