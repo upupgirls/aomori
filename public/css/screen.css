@@ -73,6 +73,6 @@ tr.chance td {
   background-color: #ffff00;
 }
 
-.ac dd {
+.ac > dd {
   display: none;
 }

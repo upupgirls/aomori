@@ -1,9 +1,9 @@
 $(function(){
-  $(".ac dt").click(function(){
-      if($(".ac dd").css("display")=="none"){
-          $(".ac dd").slideDown("slow");
+  $(".ac > dt").click(function(){
+      if($("+dd",this).css("display")=="none"){
+          $("+dd",this).slideDown("slow");
       }else{
-          $(".ac dd").slideUp("fast");
+          $("+dd",this).slideUp("fast");
       }     
   });
 });
