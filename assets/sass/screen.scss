@@ -1,6 +1,7 @@
 @import "compass/utilities/general/clearfix";
 @import "compass/css3";
 
+
 /*reset*************************************************/
 body {
   font-family: "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Arial, Helvetica, Verdana, sans-serif;
@@ -16,13 +17,30 @@ ul{
 
 /*colours*************************************************/
 $mana:#4880ff;
-$saho:#fff7d6;
+$saho:#ffff00;
 $azu:#FF9999;
 $mori:#33CC66;
 $ayano:#CC00FF;
-$miko:#CC0000;
+$miko:#FF0000;
 $konatsu:#FF66CC;
 /*colours*************************************************/
+h1{
+  color: #FFFFFF;
+  font-weight: normal;
+}
+.container{
+  @include box-sizing(border-box);
+  padding: 0 2%;
+  overflow: hidden;
+  width: 100%;
+}
+.mana{ background-color:$mana; }
+.saho{ background-color:$saho; }
+.azu{ background-color:$azu; }
+.mori{ background-color:$mori; }
+.ayano{ background-color:$ayano; }
+.miko{ background-color:$miko; }
+.konatsu{ background-color:$konatsu; }
 
 table{
   width: 100%;
@@ -34,16 +52,9 @@ tr th,tr td{
   border: 1px solid #000000;
   padding: 3px 5px;
 }
+tr.chance td{
+  background-color: #ffff00;
+}
 
-.container{
-  @include box-sizing(border-box);
-  padding: 0 2%;
-  overflow: hidden;
-  width: 100%;
-}
-.mana{
-  background-color:$mana;
-}
-.acArea{
-  display: none;
-}
+
+.ac dd{ display: none; }

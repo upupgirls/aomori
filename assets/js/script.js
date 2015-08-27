@@ -1,9 +1,9 @@
 $(function(){
-  $(".acBtn").click(function(){
-      if($(".acArea").css("display")=="none"){
-          $(".acArea").slideDown("slow");
+  $(".ac dt").click(function(){
+      if($(".ac dd").css("display")=="none"){
+          $(".ac dd").slideDown("slow");
       }else{
-          $(".acArea").slideUp("fast");
+          $(".ac dd").slideUp("fast");
       }     
   });
 });

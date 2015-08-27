@@ -15,16 +15,9 @@ ul {
 /*reset*************************************************/
 /*colours*************************************************/
 /*colours*************************************************/
-table {
-  width: 100%;
-  border: 1px solid #000000;
-  background-color: #FFFFFF;
-  margin: 10px 0;
-}
-
-tr th, tr td {
-  border: 1px solid #000000;
-  padding: 3px 5px;
+h1 {
+  color: #FFFFFF;
+  font-weight: normal;
 }
 
 .container {
@@ -40,6 +33,46 @@ tr th, tr td {
   background-color: #4880ff;
 }
 
-.acArea {
+.saho {
+  background-color: #ffff00;
+}
+
+.azu {
+  background-color: #FF9999;
+}
+
+.mori {
+  background-color: #33CC66;
+}
+
+.ayano {
+  background-color: #CC00FF;
+}
+
+.miko {
+  background-color: #FF0000;
+}
+
+.konatsu {
+  background-color: #FF66CC;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #000000;
+  background-color: #FFFFFF;
+  margin: 10px 0;
+}
+
+tr th, tr td {
+  border: 1px solid #000000;
+  padding: 3px 5px;
+}
+
+tr.chance td {
+  background-color: #ffff00;
+}
+
+.ac dd {
   display: none;
 }
