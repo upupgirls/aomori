@@ -1,0 +1,9 @@
+$(function(){
+  $(".acBtn").click(function(){
+      if($(".acArea").css("display")=="none"){
+          $(".acArea").slideDown("slow");
+      }else{
+          $(".acArea").slideUp("fast");
+      }     
+  });
+});

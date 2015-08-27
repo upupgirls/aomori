@@ -27,6 +27,12 @@ gulp.task('build:html', function() {
     .pipe(browserSync.reload({ stream: true }));
 });
 
+gulp.task('build:js', function() {
+  gulp.src('./assets/js/*.js')
+    .pipe(gulp.dest('./public/js/'))
+    .pipe(browserSync.reload({ stream: true }));
+});
+
 gulp.task('build:css', function() {
   gulp.src('./assets/sass/*.scss', { style: 'expanded' })
     .pipe(plumber())
@@ -59,6 +65,10 @@ gulp.task('watch', function() {
     ['build:html']);
 
   gulp.watch(
+    './assets/js/*.js', 
+    ['build:js']);
+
+  gulp.watch(
     './assets/sass/*.scss', 
     ['build:css']);
 
@@ -69,4 +79,4 @@ gulp.task('watch', function() {
 
 
 // 開発
-gulp.task('default', ['image', 'build:html', 'build:css', 'bs', 'watch']);
+gulp.task('default', ['image', 'build:html', 'build:js', 'build:css', 'bs', 'watch']);

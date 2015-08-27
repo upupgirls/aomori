@@ -7,11 +7,39 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+ul {
+  margin: 0 1em;
+  padding: 0;
+}
+
 /*reset*************************************************/
+/*colours*************************************************/
+/*colours*************************************************/
 table {
+  width: 100%;
   border: 1px solid #000000;
+  background-color: #FFFFFF;
+  margin: 10px 0;
 }
 
 tr th, tr td {
   border: 1px solid #000000;
+  padding: 3px 5px;
+}
+
+.container {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 2%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.mana {
+  background-color: #4880ff;
+}
+
+.acArea {
+  display: none;
 }
