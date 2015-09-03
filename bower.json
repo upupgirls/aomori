@@ -14,11 +14,11 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "~2.1.4",
-    "normalize-css": "~3.0.3"
+    "bootstrap": "~3.3.2",
+    "jquery": "~2.1.4"
   },
   "preen":{
-    "jqury":["dist/*.min.js"],
-    "normalize-css":["*.css"]
+    "bootstrap": ["less/**", "dist/fonts/*", "js/*"],
+    "jqury":["dist/*.min.js"]
   }
 }
