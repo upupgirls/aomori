@@ -9,9 +9,20 @@ body {
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
 }
+img{vertical-align: bottom;}
 ul{
   margin: 0 1em;
   padding: 0;
+}
+li{
+  padding: 3px 0;
+  font-size: 14px;
+}
+dt{
+  font-size: 16px;
+}
+dd{
+  margin-bottom: 15px;
 }
 /*reset*************************************************/
 
@@ -27,13 +38,38 @@ $konatsu:#FF66CC;
 h1{
   color: #FFFFFF;
   font-weight: normal;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
 }
+.mv{
+  width: 100%;
+  position: relative;
+}
+.mv .inner{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.mv .inner p {
+  padding-top: 30%;
+  margin: 0 auto;
+  width: 80%;
+  font-size:24px;
+  color:#FFFFFF;
+}
+section{
+  }
+
 .container{
   @include box-sizing(border-box);
   padding: 0 2%;
   overflow: hidden;
   width: 100%;
 }
+
 .mana{ background-color:$mana; }
 .saho{ background-color:$saho; }
 .azu{ background-color:$azu; }
@@ -44,12 +80,12 @@ h1{
 
 table{
   width: 100%;
-  border: 1px solid #000000;
+  border: 1px solid #333333;
   background-color: #FFFFFF;
   margin: 10px 0;
 }
 tr th,tr td{
-  border: 1px solid #000000;
+  border: 1px solid #333333;
   padding: 3px 5px;
 }
 tr.chance td{
@@ -58,3 +94,4 @@ tr.chance td{
 
 
 .ac > dd{ display: none; }
+section .container{ display: none; }
